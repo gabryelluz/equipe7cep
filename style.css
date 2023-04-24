@@ -1,0 +1,215 @@
+:root {
+    --color-white: #fff;
+    --color-dark1: #272727;
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-blue: #9bc9ff;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sarala:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: var(--color-white);
+}
+body {
+    font-size: 100%;
+    background-color: var(--color-dark1);
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7px;
+    box-shadow: 1px 1px 4px var(--color-dark4);
+    z-index: 1;
+}
+.logodocep {
+    width: 70px;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+}
+.linksmenu {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--color-blue);
+    padding: 10px;
+    transition: 0.6s linear;
+    background-color: var(--color-dark2);
+    border-radius: 7px;
+    box-shadow: 1px 1px 4px var(--color-dark4);
+}
+.linksmenu:hover {
+    color: var(--color-white);
+}
+.conteudo {
+    margin: 7% 30%;
+    margin-top: 3%;
+}
+.conteudoprimeiroempreendimento {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-bottom: 10%;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 13.2px;
+}
+.conteudotextotitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.conteudotextosubtitulo {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    align-items: center;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.buttonlook {
+    margin-top: 4%;
+    margin-left: calc(50% - 45px);
+    height: 35px;
+    width: 100px;
+    border-radius: 7px;
+    border: none;
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px 5px 10px 5px;
+    box-shadow: 1px 1px 8px var(--color-dark4);
+    background-color: var(--color-dark2);
+    cursor: pointer;
+}
+.botaoverprojeto {
+    color: var(--color-blue);
+    transition: 0.6s linear;
+}
+.buttonlook a:hover {
+    color: var(--color-white);
+}
+.entreemcontato {
+    width: 100%;
+    margin-top: 22%;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: auto;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'sarala', sans-serif;
+    font-size: 13.2px;
+    margin-bottom: 20%;
+}
+.foto {
+    width: 90px;
+}
+.todos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+.conteudosobrenostitulo {
+    text-align: center;
+    margin-bottom: 3%;
+}
+#conteudosobrenosdesenvolvimento {
+    text-align: justify;
+}
+.textotodos {
+    text-align: justify;
+    margin: 20px;
+}
+.buttonrobotica {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 35px;
+    width: 100px;
+    border-radius: 7px;
+    border: none;
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px 5px 10px 5px;
+    box-shadow: 1px 1px 8px var(--color-dark4);
+    background-color: var(--color-dark2);
+    cursor: pointer;
+    margin: 0;
+}
+.botaorobotica {
+    color: var(--color-blue);
+    transition: 0.6s linear;
+    display: inherit;
+    justify-content: center;
+}
+.buttonrobotica a:hover {
+    color: var(--color-white);
+}
+.footer {
+    display: block;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    border-top: 1px solid var(--color-dark4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    bottom: 0;
+    width: 100%;
+}
+.footerdisciplinas {
+    display: block;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    border-top: 1px solid var(--color-dark4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footersuporte {
+    display: block;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    border-top: 1px solid var(--color-dark4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footerrobotica {
+    display: block;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    border-top: 1px solid var(--color-dark4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
