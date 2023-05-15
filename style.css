@@ -213,3 +213,8 @@ body {
     bottom: 0;
     width: 100%;
 }
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+} 
