@@ -214,7 +214,7 @@ body {
     width: 100%;
 }
 
-.conteudo {
+main.conteudo {
     display: flex;
     flex-direction: column;
 } 
