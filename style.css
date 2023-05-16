@@ -163,8 +163,7 @@ body {
 .botaorobotica {
     color: var(--color-blue);
     transition: 0.6s linear;
-    display: inherit;
-    justify-content: center;
+    margin: 10px;
 }
 .buttonrobotica a:hover {
     color: var(--color-white);
