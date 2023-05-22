@@ -260,11 +260,11 @@ main.conteudo {
 
 .listaenorme {
     margin: 0 0 1em 25px;
+    background-color: rgb(219, 206, 189);
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px var(--color-dark4);
 }
 
 .textpesquisa {
     text-align: justify;
-    background-color: rgb(219, 206, 189);
-    border-radius: 10px;
-    box-shadow: 1px 1px 4px var(--color-dark4);
 }
