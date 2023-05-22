@@ -14,7 +14,6 @@
     box-sizing: border-box;
     text-decoration: none;
     color: var(--color-white);
-    font-family: 'Roboto', sans-serif;
 }
 body {
     font-size: 100%;
@@ -243,6 +242,7 @@ main.conteudo {
     justify-content: justify;
     margin: 7% 30%;
     margin-top: 3%;
+    font-family: 'Sarala', sans-serif;
 }
 
 .title_prog {
