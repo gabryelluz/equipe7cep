@@ -230,3 +230,9 @@ main.conteudo {
 #videorob {
     margin: 1em 0 0 0;
 }
+
+.video {
+    width:"250px";
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px var(--color-dark4);
+}
