@@ -243,3 +243,8 @@ main.conteudo {
     margin: 7% 30%;
     margin-top: 3%;
 }
+
+.title_prog {
+    text-align: center;
+    margin-bottom: 2em;
+}
