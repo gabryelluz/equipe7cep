@@ -249,15 +249,17 @@ main.conteudo {
 
 .title_prog {
     text-align: center;
-    margin-bottom: 15px;
+    margin: 15px 0 25px 0;
 }
 
 .cdlinha {
-    margin: 11px 0 0 0;
+    margin: 1em 0 0 0;
+    line-height: 5px;
+    letter-spacing: 2px;
 }
 
 .listaenorme {
-    margin: 0 0 1em 16px;
+    margin: 0 0 1em 20px;
 }
 
 .textpesquisa {
