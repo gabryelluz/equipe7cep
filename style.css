@@ -259,3 +259,7 @@ main.conteudo {
 .listaenorme {
     margin: 0 0 1em 16px;
 }
+
+.textpesquisa {
+    text-align: justify;
+}
