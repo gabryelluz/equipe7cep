@@ -254,8 +254,8 @@ main.conteudo {
 
 .cdlinha {
     margin: 1em 0 0 0;
-    line-height: 2px;
-    letter-spacing: 1px;
+    line-height: 20px;
+    letter-spacing: 3px;
 }
 
 .listaenorme {
