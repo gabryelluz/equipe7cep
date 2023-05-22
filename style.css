@@ -238,5 +238,7 @@ main.conteudo {
 }
 
 .conteudoprog {
-    text-align: left;
+    display: flex;
+    justify-content: justify;
+    text-align: justify;
 }
