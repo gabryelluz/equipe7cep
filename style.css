@@ -259,6 +259,7 @@ main.conteudo {
 }
 
 .cdlinha:before {
+    counter-reset: mynum;
     content: counter(mynum) ". ";
     counter-increment: mynum;
 }
