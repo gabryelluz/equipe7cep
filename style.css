@@ -258,6 +258,11 @@ main.conteudo {
     letter-spacing: 1.5px;
 }
 
+.cdlinha:before {
+    content: counter(mynum) ". ";
+    counter-increment: mynum;
+}
+
 .listaenorme {
     padding: 12px;
     margin: 1em 0;
