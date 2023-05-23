@@ -259,7 +259,7 @@ main.conteudo {
 }
 
 .cdlinha:before {
-    content: counter(mynum) ". ";
+    content: counter(mynum) ". " bold;
     counter-increment: mynum;
 }
 
@@ -282,5 +282,4 @@ main.conteudo {
 
 .linha01 {
     counter-reset: mynum;
-    font-weight: bold;
 }
