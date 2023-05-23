@@ -256,13 +256,13 @@ main.conteudo {
     margin: 1em 0 0 0;
     line-height: 17px;
     letter-spacing: 1.5px;
+    color: var(--color-dark2);
 }
 
 .listaenorme {
     padding: 6px 6px 6px 6px;
     margin: 1em 0;
     background-color: antiquewhite;
-    color: var(--color-dark2);
     border-radius: 10px;
     box-shadow: 1px 1px 4px var(--color-dark4);
     text-align: justify;
