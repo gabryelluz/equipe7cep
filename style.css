@@ -253,9 +253,9 @@ main.conteudo {
 }
 
 .cdlinha {
-    margin-bottom: 7px;
+    margin-bottom: 9px;
     line-height: 15px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
 }
 
 .cdlinha:before {
