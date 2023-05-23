@@ -259,7 +259,7 @@ main.conteudo {
 }
 
 .listaenorme {
-    padding: 6px;
+    padding: 2px 6px 6px 6px;
     margin: 0 0 1em 25px;
     background-color: var(--color-dark3);
     border-radius: 10px;
