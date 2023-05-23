@@ -256,7 +256,6 @@ main.conteudo {
     margin: 1em 0 0 0;
     line-height: 17px;
     letter-spacing: 1.5px;
-    color: var(--color-dark2);
 }
 
 .listaenorme {
@@ -264,7 +263,7 @@ main.conteudo {
     margin: 1em 0;
     background-color: var(--color-dark5);
     border-radius: 10px;
-    box-shadow: 1px 1px 4px var(--color-dark3);
+    box-shadow: 1px 1px 4px var(--color-dark1);
     text-align: justify;
 }
 
