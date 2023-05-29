@@ -283,3 +283,11 @@ main.conteudo {
 .linha01 {
     counter-reset: mynum;
 }
+
+.formulario {
+    text-align: right;
+}
+
+.titformulario {
+    text-align: center;
+}
