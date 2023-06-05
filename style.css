@@ -296,3 +296,7 @@ main.conteudo {
 form {
     color: var(--color-dark4);
 }
+
+input {
+    color: var(--color-dark4);
+}
